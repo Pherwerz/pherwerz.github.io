@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>word possibilities</title>
+        <style>
+            html {
+                font-size: 62.5%;
+            }
+
+            body {
+                box-sizing: border-box;
+                font-size: 2rem;
+            }
+
+            * {
+                box-sizing: inherit;
+            }
+
+            .container {
+                width: 40rem;
+                margin: 6rem auto;
+                border: 2px solid grey;
+                box-shadow: 0 2rem 4rem rgba(0,0,0,.4);
+                padding: 4rem;
+            }
+
+            .form{
+                width: 100%;
+            }
+
+            .form__input {
+                display: block;
+                width : 70%;
+                height: 4rem;
+                border-radius: 1rem;
+                margin: 2rem auto;
+            }
+
+            .form__button {
+                display: block;
+                width: 6rem;
+                height: 4rem;
+                border-radius: 1rem;
+                color: grey;
+                border: 2px solid grey;
+                margin: 2rem auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form action="#" class="form">
+                <input type="text" class="form__input" id="input" autocomplete="off" required>
+                <button class="form__button" id="submit">check</button>
+            </form>
+            <div class="possible" id="answer">
+                
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
