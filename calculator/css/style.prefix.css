@@ -106,8 +106,8 @@ body {
       outline: none;}
     .screen__button:hover {
       outline: none;
-      color: inherit;
-      background-color: inherit;}
+      color: var(--color-secondary);
+      background-color: var(--color-secondary);}
 
 hr {
   border: 1px solid var(--color-secondary);
@@ -144,10 +144,6 @@ hr {
     .button__keys:active {
       outline: none;
       background-color: transparent;}
-    .button__keys:hover {
-      outline: none;
-      color: inherit;
-      background-color: inherit;}
     .button__keys--c {
       background-color: var(--color-secondary);
       color: #eee;
@@ -214,10 +210,6 @@ hr {
   .btn:active {
       outline: none;
       background-color: transparent;}
-  .btn:hover {
-      outline: none;
-      color: inherit;
-      background-color: inherit;}
   .btn__icon {
     height: 2rem;
     width: 2rem;
