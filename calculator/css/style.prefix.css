@@ -59,6 +59,7 @@ body {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
+  -webkit-tap-highlight-color: transparent;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -114,6 +115,7 @@ hr {
   margin: 3rem 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  -webkit-tap-highlight-color: transparent;
   grid-gap: 2rem;
   width: 100%;
   padding: 2rem 4rem; }
@@ -175,6 +177,7 @@ hr {
   .history__head {
     display: -webkit-box;
     display: -ms-flexbox;
+    -webkit-tap-highlight-color: transparent;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
