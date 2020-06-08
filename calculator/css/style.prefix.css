@@ -105,10 +105,6 @@ body {
       outline: none;}
     .screen__button:active {
       outline: none;}
-    .screen__button:hover {
-      outline: none;
-      color: var(--color-secondary);
-      background-color: var(--color-secondary);}
 
 hr {
   border: 1px solid var(--color-secondary);
@@ -143,9 +139,6 @@ hr {
     cursor: pointer; }
     .button__keys:focus {
       outline: none; }
-    .button__keys:active {
-      outline: none;
-      background-color: transparent;}
     .button__keys--c {
       background-color: var(--color-secondary);
       color: #eee;
@@ -206,13 +199,9 @@ hr {
   margin: 0 2rem;
   cursor: pointer;
   background-color: inherit;
-  -webkit-tap-highlight-color: transparent;
   border: none; }
   .btn:focus {
     outline: none;}
-  .btn:active {
-      outline: none;
-      background-color: transparent;}
   .btn__icon {
     height: 2rem;
     width: 2rem;
