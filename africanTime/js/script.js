@@ -209,7 +209,6 @@ var globalController = (function (ctr, UI) {
 
   var showCountry = function () {
     if (newList.id.length === 0) count();
-    console.log(newList.id);
 
     if (tracker) {
       UI.renderCountry(newList.id, newList.name, newList.flag);
