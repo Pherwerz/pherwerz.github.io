@@ -9,21 +9,22 @@
 </head>
 <body>
     <div class="container">
-        <p class="paragraph">
+        <p class="paragraph" id="p1">
             search for a country in africa to know the time over there
         </p>
 
         <div class="search">
-            <button class="search__icon">
-                <svg>
+            <button class="search__icon" id="search__icon">
+                <svg id="search__icon--svg">
                     <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
                 </svg>
             </button>
             
-            <input type="text" class="search__input" placeholder="search">
+            <input type="text" class="search__input" placeholder="search" autocomplete="off">
+            <img src="img/flag.jpg" alt="flag" class="country__flag search__flag">
 
-            <button class="search__icon">
-                <svg>
+            <button class="search__icon" id="drop__icon">
+                <svg id="drop__icon--svg">
                     <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
                 </svg>
             </button>
@@ -40,7 +41,7 @@
             </ul>
         </div>
 
-        <p class="paragraph display">
+        <p class="paragraph display" id="p2">
             click on the search icon to display the time
         </p>
 
@@ -59,9 +60,9 @@
         </div>
 
         <div class="result">
-            <p class="paragraph">
+            <!-- <p class="paragraph">
                 good morning dear, it's morning in nigeria
-            </p>
+            </p> 
             <div class="result__view">
                 <div class="result__flag">
                     <img src="img/flag.jpg" alt="flag" class="result__flag-img">
@@ -78,9 +79,10 @@
                     <p class="result__text">
                         saturday may 30 2020
                     </p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
