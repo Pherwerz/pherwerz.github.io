@@ -107,6 +107,15 @@ body {
     height: 2rem;
     width: 3rem;
     border-radius: 0.5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .country__flag {
+        border-radius: 0; } }
+    @media only screen and (max-width: 25em) {
+      .country__flag {
+        border-radius: 0; } }
+    @media only screen and (max-width: 20em) {
+      .country__flag {
+        border-radius: 0; } }
   .country::-webkit-scrollbar {
     display: none; }
 
